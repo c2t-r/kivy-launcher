@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Kivy Launcher
+title = Modified Kivy Launcher
 
 # (str) Package name
-package.name = launcher
+package.name = Modified launcher
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.kivy
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, android
+requirements = python3==3.12.1,kivy==master,hostpython3==3.12.1,android,requests,opencv,numpy,Pillow,plyer,asynckivy,asyncgui,kivy_garden.i18n
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
